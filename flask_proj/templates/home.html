@@ -1,0 +1,5 @@
+<h1>Show all users:</h1>
+
+{% for user in all_users %}
+  <li>{{ user.id }}. User: {{ user.name }} - Password: {{ user.password }}</li>
+{% endfor %}
